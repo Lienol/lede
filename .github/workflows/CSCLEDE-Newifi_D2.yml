@@ -92,4 +92,4 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: CSCLEDE-Newifi_D2
-        path: openwrt/bin:  
+        path: openwrt/bin 
