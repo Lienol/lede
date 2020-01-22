@@ -10,8 +10,8 @@
 name: X86_64
 
 on:
-  schedule:
-    - cron: 0 20 * * *
+  # schedule:
+  #   - cron: 0 20 * * *
   push:
     branches: 
       - master
