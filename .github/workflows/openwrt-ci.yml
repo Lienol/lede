@@ -10,11 +10,11 @@
 name: X86_64
 
 on:
-  push:
+    schedule:
+    - cron: 0 20 * * *
+    push:
     branches: 
       - master
-  schedule:
-    - cron: 0 20 * * *
   # release:
   #   types: [published]
 
