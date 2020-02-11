@@ -53,6 +53,14 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
+      - name: Clone passwall code
+        run: |
+          cd lean-lede/package && git clone https://github.com/hong0980/luci-app-passwall.git
+ 
+      - name: Clone Hello World code
+        run: |
+          cd lean-lede/package && git clone https://github.com/jerrykuku/luci-app-vssr.git                 
+
       - name: Generate configuration file
         run: make defconfig
 
