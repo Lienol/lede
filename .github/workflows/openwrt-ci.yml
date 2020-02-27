@@ -9,9 +9,9 @@
 
 name: OpenWrt-MT5661
 
-on:
-  schedule:
-    - cron: 0 20 * * *
+#on:
+  #schedule:
+    #- cron: 0 20 * * *
   push:
     branches: 
       - master
