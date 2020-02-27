@@ -8,8 +8,7 @@
 # 
 
 name: OpenWrt-MT5661
-
-# on:
+on:
   # schedule:
     # - cron: 0 20 * * *
   push:
